@@ -2,6 +2,8 @@
 
 This directory contains code for building and training an ADMET prediction model based on molecular graph neural networks.
 
+(This project implements an ADMET prediction model independently developed and implemented during my research work at the Korea Research Institute of Chemical Technology (KRICT).)
+
 ## Overview
 
 Development of a machine learning pipeline for predicting pharmacokinetic and toxicity properties of small molecules.
