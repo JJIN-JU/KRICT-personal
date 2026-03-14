@@ -80,7 +80,7 @@ def preprocess_smiles(smi):
         return Chem.MolToSmiles(mol, canonical=True)
 
     except Exception:
-      return None
+        return None
 
 # Apply preprocessing
 df["smiles"] = df[smiles_col].apply(preprocess_smiles)
